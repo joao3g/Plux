@@ -1,0 +1,53 @@
+.Section{
+  background-color: var(--background) !important;
+}
+
+.fa_mainDiv {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fa_title{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.fa_registerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--blue-dark) !important;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 150px;
+  padding: 10px;
+  margin-right: 16px;
+}
+
+.fa_cancelButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--text) !important;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 150px;
+  padding: 10px;
+}
+
+.fa_ButtonsDiv{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 16px;
+}

@@ -1,0 +1,119 @@
+.featured {
+  flex: 2;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  background-color: var(--background);
+  border-radius: 10px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--title);
+}
+
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.clock {
+  padding: 17px;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+
+.divModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+
+}
+
+.divModal button {
+
+  background: var(--sub-primary);
+  border-radius: 40px;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  color: aliceblue;
+
+}
+
+.divModal button:hover {
+  background: var(--primary);
+  color: aliceblue;
+}
+
+.settingsIcon {
+  color: var(--green);
+}
+
+.point_mainDiv {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.point_hour {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.point_registerButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--green) !important;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 150px;
+  padding: 10px;
+  margin-right: 16px;
+}
+
+.point_cancelButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--text) !important;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 150px;
+  padding: 10px;
+}
+
+.point_ButtonsDiv{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 16px;
+}

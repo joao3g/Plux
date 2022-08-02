@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.homeWidgets{
+    display: flex;
+    flex: 1;
+    max-height: 500px;
+    margin: 20px;
+}

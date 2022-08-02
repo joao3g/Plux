@@ -1,0 +1,10 @@
+{
+    "env" : {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "root",
+        "MYSQL_DATABASE": "plux",
+        "MYSQL_PORT": "3308",
+        "RECAPTCHA_SECRET_KEY":"6Lfoxc0eAAAAAFlubKrL4vdPMJOJZZrbOqygb3__"
+    }
+}

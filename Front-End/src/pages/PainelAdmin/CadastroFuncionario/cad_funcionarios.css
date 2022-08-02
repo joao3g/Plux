@@ -1,0 +1,56 @@
+.mainForm {
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     max-height: 500px;
+     background-color: var(--background);
+     padding: 60px;
+     margin: 20px;
+     border-radius: 10px;
+}
+
+.home {
+     display: flex;
+     flex-direction: column;
+     flex: 6;
+}
+
+.lineForm{
+     display: flex;
+     flex-direction: row;
+     flex: 1;
+}
+
+.columnForm{
+     display: flex;
+     flex-direction: column;
+
+}
+
+.groupForm{
+     display: flex;
+     flex-direction: row;
+}
+
+.groupForm div:first-child{
+     margin-right: 20px;
+}
+
+.radioForm{
+     margin-top: 20px;
+}
+
+.radioInput{
+     margin-top: 10px;
+}
+
+.formTitle{
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 10px;
+}
+
+#radioTitle{
+     font-size: 18px;
+     margin: 10px 0px 10px 0px;
+}

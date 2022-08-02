@@ -1,0 +1,99 @@
+.mainDiv {
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     max-height: 500px;
+     background-color: var(--background);
+     padding: 60px;
+     border-radius: 10px;
+     margin: 20px;
+}
+
+.func,
+.funcHeader {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: var(--sub-primary);
+     padding: 10px;
+     border: 2px var(--primary) solid;
+     color: var(--white);
+}
+
+.nome {
+     font-size: 16px;
+     font-weight: bold;
+     margin-right: 20px;
+}
+
+.cpf {
+     font-size: 16px;
+     font-weight: bold;
+     margin-right: 200px;
+}
+
+.Icon {
+     cursor: pointer;
+     margin-right: 10px;
+     float: right;
+     font-size: 25px !important;
+     border-radius: 10px;
+}
+
+.deleteIcon {
+     color: red;
+}
+
+.settingsIcon {
+     color: var(--green);
+}
+
+.deletedMain {
+     display: flex;
+     flex: 1;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.userDeleted {
+     font-size: 1.1em;
+     font-weight: bold;
+}
+
+.deleteButton {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     background-color: var(--red) !important;
+     font-weight: bold;
+     border-radius: 10px;
+     cursor: pointer;
+     border-radius: 40px;
+     width: 150px;
+     padding: 10px;
+     margin-right: 16px;
+}
+
+.cancelButton {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     background-color: var(--text) !important;
+     font-weight: bold;
+     border-radius: 10px;
+     cursor: pointer;
+     border-radius: 40px;
+     width: 150px;
+     padding: 10px;
+}
+
+.buttonsDiv{
+     display: flex;
+     flex-direction: row;
+     flex: 1;
+     margin-top: 16px;
+}
